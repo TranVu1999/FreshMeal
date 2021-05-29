@@ -1,0 +1,40 @@
+section.our-service{
+    background: var(--light);
+    z-index: 0;
+    position: relative;
+}
+
+section.our-service  .card-wrapper{
+    margin-right: -2rem;
+    margin-top: 8rem;
+}
+
+section.our-service .service-card{
+    background-color: var(--heaven);
+    text-align: center;
+    padding: 2rem;
+    padding-top: 4rem;
+    position: relative;
+
+    border-radius: 4px;
+    margin-right: 2rem;
+}
+
+section.our-service .service-card .icon{
+    position: absolute;
+    top: -45px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+section.our-service .service-card h2{
+    font-family: "Raleway-bold";
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
+
+section.our-service .service-card p{
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+
